@@ -14,7 +14,7 @@ namespace WinAppDriverTest
     public class UnitTest1 : MozartSession
     {
 		[TestMethod]
-		public void ChooseDatabase()
+		public void OpenApp()
 		{
             Thread.Sleep(TimeSpan.FromSeconds(3));
             // Choose DataBase
